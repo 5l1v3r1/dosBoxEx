@@ -1,0 +1,110 @@
+#include<dos.h>
+#include<time.h>
+void usleep(unsigned int mseconds)
+{
+    clock_t goal = mseconds + clock();
+    while (goal > clock());
+}
+main(){
+
+	sound(330);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(330);delay(100);nosound();usleep(3);
+	sound(392);delay(100);nosound();usleep(7);
+	sound(196);delay(100);nosound();usleep(7);
+	sound(262);delay(300);nosound();usleep(3);
+	sound(196);delay(300);nosound();usleep(3);
+	sound(164);delay(300);nosound();usleep(3);
+	sound(220);delay(300);nosound();usleep(1);
+	sound(246);delay(100);nosound();usleep(3);
+	sound(233);delay(200);nosound();
+	sound(220);delay(100);nosound();usleep(3);
+	sound(196);delay(100);nosound();usleep(2);
+	sound(330);delay(100);nosound();usleep(2);
+	sound(392);delay(100);nosound();usleep(2);
+	sound(440);delay(100);nosound();usleep(3);
+	sound(349);delay(100);nosound();usleep(1);
+	sound(392);delay(100);nosound();usleep(3);
+	sound(330);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(294);delay(100);nosound();usleep(1);
+	sound(247);delay(100);nosound();usleep(5);
+	sound(262);delay(300);nosound();usleep(3);
+	sound(196);delay(300);nosound();usleep(3);
+	sound(164);delay(300);nosound();usleep(3);
+	sound(220);delay(300);nosound();usleep(1);
+	sound(246);delay(100);nosound();usleep(3);
+	sound(233);delay(200);nosound();
+	sound(220);delay(100);nosound();usleep(3);
+	sound(196);delay(100);nosound();usleep(1);
+	sound(330);delay(100);nosound();usleep(2);
+	sound(392);delay(100);nosound();usleep(2);
+	sound(440);delay(100);nosound();usleep(3);
+	sound(349);delay(100);nosound();usleep(1);
+	sound(392);delay(100);nosound();usleep(3);
+	sound(330);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(294);delay(100);nosound();usleep(1);
+	sound(247);delay(100);nosound();usleep(9);
+	sound(392);delay(100);nosound();usleep(1);
+	sound(370);delay(100);nosound();usleep(1);
+	sound(349);delay(100);nosound();usleep(1);
+	sound(311);delay(100);nosound();usleep(3);
+	sound(330);delay(100);nosound();usleep(3);
+	sound(207);delay(100);nosound();usleep(1);
+	sound(220);delay(100);nosound();usleep(1);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(220);delay(100);nosound();usleep(1);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(294);delay(100);nosound();usleep(5);
+	sound(392);delay(100);nosound();usleep(1);
+	sound(370);delay(100);nosound();usleep(1);
+	sound(349);delay(100);nosound();usleep(1);
+	sound(311);delay(100);nosound();usleep(3);
+	sound(330);delay(100);nosound();usleep(3);
+	sound(523);delay(100);nosound();usleep(3);
+	sound(523);delay(100);nosound();usleep(1);
+	sound(523);delay(100);nosound();usleep(11);
+	sound(392);delay(100);nosound();usleep(1);
+	sound(370);delay(100);nosound();usleep(1);
+	sound(349);delay(100);nosound();usleep(1);
+	sound(311);delay(100);nosound();usleep(3);
+	sound(330);delay(100);nosound();usleep(3);
+	sound(207);delay(100);nosound();usleep(1);
+	sound(220);delay(100);nosound();usleep(1);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(220);delay(100);nosound();usleep(1);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(294);delay(100);nosound();usleep(5);
+	sound(311);delay(300);nosound();usleep(3);
+	sound(296);delay(300);nosound();usleep(3);
+	sound(262);delay(300);nosound();usleep(13);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(294);delay(100);nosound();usleep(3);
+	sound(330);delay(200);nosound();usleep(1);
+	sound(262);delay(200);nosound();usleep(1);
+	sound(220);delay(200);nosound();usleep(10);
+	sound(196);delay(100);nosound();usleep(7);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(294);delay(100);nosound();usleep(1);
+	sound(330);delay(100);nosound();usleep(7);
+	sound(440);delay(100);nosound();usleep(3);
+	sound(392);delay(100);nosound();usleep(5);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(3);
+	sound(262);delay(100);nosound();usleep(1);
+	sound(294);delay(100);nosound();usleep(3);
+	sound(330);delay(200);nosound();usleep(1);
+	sound(262);delay(200);nosound();usleep(1);
+	sound(220);delay(200);nosound();usleep(1);
+	sound(196);delay(100);nosound();usleep(7);
+
+
+	}
