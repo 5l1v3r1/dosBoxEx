@@ -1,4 +1,4 @@
 # MarioMusic
 
 
-It's a example for but music on C.
+It's a example for bit music on C.
